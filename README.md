@@ -3,13 +3,13 @@
 A responsive one-page website for **Barber Studio**, a (fictional) barbershop in Kyiv, Ukraine.
 Built as a portfolio demo project with plain HTML, CSS and vanilla JavaScript — no frameworks, no build step. Online booking runs on a small serverless backend (Cloudflare Worker + D1) and delivers requests to the admins' Telegram.
 
-**Live demo:** https://blessedrbls.github.io/barbershop-site/
+**Live demo:** https://blessedrbls.github.io/barbershop-site/?lang=en (English) · [Ukrainian version](https://blessedrbls.github.io/barbershop-site/)
 
 ## Features
 
 - **Dark, modern design** with a warm gold accent, Google Fonts (Playfair Display + Manrope), smooth scrolling and fade-in animations on scroll
 - **Fully responsive** — mobile, tablet and desktop layouts, burger menu on small screens
-- **Two languages:** Ukrainian (default) and English, switchable with the UA / EN toggle in the header; the choice is remembered in the browser. All texts live in one dictionary in `script.js`
+- **Two languages:** Ukrainian (default) and English, switchable with the UA / EN toggle in the header; the choice is remembered in the browser, and a `?lang=en` link opens the English version directly. All texts live in one dictionary in `script.js`
 - **Telegram booking:** "Book via Telegram" buttons on the hero screen and in the services section. The bot link is stored in one variable (`TELEGRAM_BOT_URL` in `script.js`)
 - **Services & prices** — haircut, beard, haircut + beard, kids' haircut
 - **Barbers** — three team cards with photo, experience and specialization

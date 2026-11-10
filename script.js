@@ -860,13 +860,16 @@ form.addEventListener("submit", async (event) => {
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
-// Мова: збережена раніше або українська за замовчуванням
+// Мова: з посилання (?lang=en), інакше збережена раніше, інакше українська
 let savedLang = DEFAULT_LANG;
 try {
   savedLang = localStorage.getItem("lang") || DEFAULT_LANG;
 } catch (e) {
   /* localStorage недоступний — лишаємо українську */
 }
+// Посилання виду .../?lang=en одразу відкриває англійську версію — зручно надсилати іноземним клієнтам
+const langFromUrl = new URLSearchParams(location.search).get("lang");
+if (translations[langFromUrl]) savedLang = langFromUrl;
 setLanguage(savedLang);
 
 // Підтягуємо зайнятий час із бази
