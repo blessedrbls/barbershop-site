@@ -26,11 +26,11 @@ Built as a portfolio demo project with plain HTML, CSS and vanilla JavaScript â€
 
 | Desktop | Booking: only the barber's free hours |
 | --- | --- |
-| ![Hero section on desktop](images/screenshot-desktop.jpg) | ![Booking form on desktop](images/screenshot-booking.jpg) |
+| ![Hero section on desktop](images/screenshot-en-desktop.jpg) | ![Booking form on desktop](images/screenshot-en-booking.jpg) |
 
 | Mobile | Mobile booking |
 | --- | --- |
-| <img src="images/screenshot-mobile.jpg" alt="Hero section on a phone" width="300"> | <img src="images/screenshot-mobile-booking.jpg" alt="Booking form on a phone" width="300"> |
+| <img src="images/screenshot-en-mobile.jpg" alt="Hero section on a phone" width="300"> | <img src="images/screenshot-en-mobile-booking.jpg" alt="Booking form on a phone" width="300"> |
 
 ## Tech stack
 
