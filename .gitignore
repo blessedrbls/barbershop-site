@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+*.tmp
+
+# Dependencies (in case tools are added later)
+node_modules/
+
+# Local environment files
+.env
+.env.*
+
+# Claude Code local settings
+.claude/
+
+# Cloudflare Wrangler (if you deploy the Worker from the command line)
+.wrangler/
+.dev.vars
